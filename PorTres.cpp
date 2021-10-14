@@ -5,16 +5,19 @@
 //  Created by 陈瑞煜 on 30/9/21.
 //
 //
-
-
-
-//
-//
-//
+// -------------------------------------------------------------------------------------------
+// Nombre: RuiYu Chen
+// Fecha: 14-10-2021
+// -------------------------------------------------------------------------------------------
 
 
 #include <iostream> //Incluye la libreria iostream
 
+// -------------------------------------------------------------------------------------------
+// Diseño:
+// Recibe un numero natural desde main, en dentro de la funcion decimos que multiplica ese numero
+// por tres, y devuelve que resultado calculado para main.
+// -------------------------------------------------------------------------------------------
 int porTres(int n1) //Crear una funcion que se llama "suma" con las condiciones n1
 {
     int resultado; //Crear una variable que se llama resultado para guardar el numero entero
@@ -29,5 +32,9 @@ int main() // Crear la funcion "main"
     r=porTres(a);  //Guarda el resultado devuelto por la funcion "porTres"
     std::cout<<" El resultado es: " << r; //Imprimir el resultado en la pantalla
 }
-
+// -------------------------------------------------------------------------------------------
+// Crear dos variables de tipo int para guardar numeros naturales, uno viene del numero introducido 
+// por el usuario, y el otro es el numero calculado en la funcion porTres, una vez captar el resultado,
+// imprimo ese numero en la pantalla.
+// -------------------------------------------------------------------------------------------
 

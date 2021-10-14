@@ -1,7 +1,18 @@
 
+// -------------------------------------------------------------------------------------------
+// Nombre: RuiYu Chen
+// Fecha: 14-10-2021
+// -------------------------------------------------------------------------------------------
 
 #include <iostream> //Incluye la libreria iostream
 
+
+// -------------------------------------------------------------------------------------------
+// Diseño:
+// Capta un numero introducido por el usuario, ese valor lo tomamos como valor maximo, y definimos 
+// el valor minimo es el 0, la funcion recibe un numero, se suma los numeros pares, y devuelve
+// otro numero natural como resultado para main.
+// -------------------------------------------------------------------------------------------
 int sumatorioPares(int num) //Crear la funcion "sumatorio"
 {
     int resultado=0; //Crear una variable de tipo "int"
@@ -40,7 +51,11 @@ int main() //Crear la funcion "main"
     std::cout<<"El resultado es" << r; //Imprimir el resultado en la pantalla
     
 }
-
+// -------------------------------------------------------------------------------------------
+// Crear dos variables de tipo int para guardar numeros naturales, uno viene del numero introducido 
+// por el usuario, y el otro es el numero calculado en la funcion porTres, una vez captar el resultado,
+// imprimo ese numero en la pantalla.
+// -------------------------------------------------------------------------------------------
 
 
 
